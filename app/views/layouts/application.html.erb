@@ -9,6 +9,8 @@
     <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.0/css/all.css">
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    
 
   </head>
   <body>
@@ -59,6 +61,7 @@
       <% end %>
       <%= yield %>
     </main>
+
+  <footer>Create by Reiji.Ito</footer>
   </body>
-  <footer>CopyRight Infratop.inc</footer>
 </html>
